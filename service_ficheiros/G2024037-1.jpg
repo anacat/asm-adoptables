@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+        <title>404</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="shortcut icon" href="static/images/logo/icon-16.png">
+        <link rel="icon" href="static/images/logo/icon-32.png" sizes="32x32">
+        <link rel="icon" href="static/images/logo/icon-48.png" sizes="48x48">
+        <link rel="icon" href="static/images/logo/icon-128.png" sizes="128x128">
+        </head>
+        <body style="background-color: #999">
+        <div style="position: absolute; left: 20%; width: 60%; padding: 20px; background-color: white">
+
+        <img src="static/images/logo/icon-64.png" align="right" />
+        <h2>Error 404</h2>
+
+        <p>Sorry, but the record or resource you tried to access was not found.</p>
+
+        <p><a href="javascript:history.back()">Go Back</a></p>
+
+        </div>
+        </body>
+        </html>
+    
