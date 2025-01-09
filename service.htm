@@ -4,21 +4,10 @@
 <title></title>
 <style>
 * { 
-    font-family: Verdana, sans-serif;
-}
-body {
-    background: rgb(255,229,231);
-    background: linear-gradient(95deg, rgba(255,229,231,1) 35%, rgba(255,248,249,1) 100%);
-}
-.orgName {
-    text-align: center;
-    color: #4b3032;
-}
-h1 {
-    color: #c48288;
+    font-family: sans-serif 
 }
 .box {
-    margin: 5px;
+    margin: 2px;
     max-width: 150px;
     display: inline-block;
     vertical-align: top;
@@ -31,28 +20,28 @@ h1 {
     object-fit: cover;
 }
 .detailbox {
+    font-weight: bolder;
     text-align: center;
-    color: #351923ab;
+    color: #909090;
 }
 .animaldetails {
     position: fixed;
     z-index: 100;
-    box-shadow: 5px 5px 5px #674a4d5f;
-    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888;
     top: 10px;
     left: 10%;
     width: 80%;
     padding: 10px;
-    color: #454141;
+    color: #909090;
     background-color: #fff;
     border: 1px solid #ccc;
     font-size: 10pt;
 }
 .animaldetails td {
-    font-size: 15pt;
+    font-size: 10pt;
 }
 a, a:hover, a:visited, a:active {
-    color: rgb(116, 22, 100);
+    color: #069;
 }
 .ldesc, .lname, .lage, .lstatus, .lsex, .lbreed, .lgood {
     font-weight: bold;
@@ -100,11 +89,6 @@ function blankImage(imgid) {
 <link href="data:text/css,%3Ais(%5Bid*%3D'google_ads_iframe'%5D%2C%5Bid*%3D'taboola-'%5D%2C.taboolaHeight%2C.taboola-placeholder%2C%23top-ad%2C%23credential_picker_container%2C%23credentials-picker-container%2C%23credential_picker_iframe%2C%5Bid*%3D'google-one-tap-iframe'%5D%2C%23google-one-tap-popup-container%2C.google-one-tap__module%2C.google-one-tap-modal-div%2C%23amp_floatingAdDiv%2C%23ez-content-blocker-container)%20%7Bdisplay%3Anone!important%3Bmin-height%3A0!important%3Bheight%3A0!important%3B%7D" rel="stylesheet" type="text/css"></head>
 
 <body>
-    <div class="orgName">
-        <h1>AMIGATOS DA MILKINHA</h1>
-        <p>Atuais residentes no abrigo.</p>
-    </br>
-    </div>    
 <div class="box">
 
 <script>
@@ -115,13 +99,14 @@ function blankImage(imgid) {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show31()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_039.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=31" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show31()"><img class="animalimg" height="150px" width="150px" src="service_files/service_039.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show31()">Adolfina</a><br>
@@ -135,7 +120,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="311" onerror="blankImage(this.id)" onmouseover="showImage('img31', 'service_ficheiros/service_039.jpg')" width="50px" border="0" src="service_ficheiros/service_039.jpg">
+<img id="311" onerror="blankImage(this.id)" onmouseover="showImage('img31', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=31')" width="50px" border="0" src="service_files/service_039.jpg">
 <img id="312" onerror="blankImage(this.id)" onmouseover="showImage('img31', '')" width="50px" border="0" src="">
 <img id="313" onerror="blankImage(this.id)" onmouseover="showImage('img31', '')" width="50px" border="0" src="">
 <img id="314" onerror="blankImage(this.id)" onmouseover="showImage('img31', '')" width="50px" border="0" src="">
@@ -173,7 +158,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -201,8 +186,8 @@ var disableLinks = false;
 function show31() {
     if (disableLinks) return;
     var id = "box31";
-    document.getElementById("img31").src = "service_ficheiros/service_039.jpg";
-    document.getElementById("311").src = "service_ficheiros/service_039.jpg";
+    document.getElementById("img31").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=31";
+    document.getElementById("311").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=31";
     document.getElementById("312").src = "";
     document.getElementById("313").src = "";
     document.getElementById("314").src = "";
@@ -225,13 +210,14 @@ function hide31() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show8()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_041.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=8" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show8()"><img class="animalimg" height="150px" width="150px" src="service_files/service_041.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show8()">Baunilha</a><br>
@@ -245,7 +231,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="81" onerror="blankImage(this.id)" onmouseover="showImage('img8', 'service_ficheiros/service_041.jpg')" width="50px" border="0" src="service_ficheiros/service_041.jpg">
+<img id="81" onerror="blankImage(this.id)" onmouseover="showImage('img8', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=8')" width="50px" border="0" src="service_files/service_041.jpg">
 <img id="82" onerror="blankImage(this.id)" onmouseover="showImage('img8', '')" width="50px" border="0" src="">
 <img id="83" onerror="blankImage(this.id)" onmouseover="showImage('img8', '')" width="50px" border="0" src="">
 <img id="84" onerror="blankImage(this.id)" onmouseover="showImage('img8', '')" width="50px" border="0" src="">
@@ -283,7 +269,7 @@ Masculino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -309,8 +295,8 @@ var disableLinks = false;
 function show8() {
     if (disableLinks) return;
     var id = "box8";
-    document.getElementById("img8").src = "service_ficheiros/service_041.jpg";
-    document.getElementById("81").src = "service_ficheiros/service_041.jpg";
+    document.getElementById("img8").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=8";
+    document.getElementById("81").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=8";
     document.getElementById("82").src = "";
     document.getElementById("83").src = "";
     document.getElementById("84").src = "";
@@ -333,13 +319,14 @@ function hide8() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show27()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_007.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=27" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show27()"><img class="animalimg" height="150px" width="150px" src="service_files/service_007.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show27()">Bino</a><br>
@@ -353,7 +340,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="271" onerror="blankImage(this.id)" onmouseover="showImage('img27', 'service_ficheiros/service_007.jpg')" width="50px" border="0" src="service_ficheiros/service_007.jpg">
+<img id="271" onerror="blankImage(this.id)" onmouseover="showImage('img27', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=27')" width="50px" border="0" src="service_files/service_007.jpg">
 <img id="272" onerror="blankImage(this.id)" onmouseover="showImage('img27', '')" width="50px" border="0" src="">
 <img id="273" onerror="blankImage(this.id)" onmouseover="showImage('img27', '')" width="50px" border="0" src="">
 <img id="274" onerror="blankImage(this.id)" onmouseover="showImage('img27', '')" width="50px" border="0" src="">
@@ -391,7 +378,7 @@ Masculino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -418,8 +405,8 @@ var disableLinks = false;
 function show27() {
     if (disableLinks) return;
     var id = "box27";
-    document.getElementById("img27").src = "service_ficheiros/service_007.jpg";
-    document.getElementById("271").src = "service_ficheiros/service_007.jpg";
+    document.getElementById("img27").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=27";
+    document.getElementById("271").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=27";
     document.getElementById("272").src = "";
     document.getElementById("273").src = "";
     document.getElementById("274").src = "";
@@ -442,13 +429,14 @@ function hide27() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show58()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_029.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=58" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show58()"><img class="animalimg" height="150px" width="150px" src="service_files/service_029.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show58()">Blue</a><br>
@@ -462,7 +450,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="581" onerror="blankImage(this.id)" onmouseover="showImage('img58', 'service_ficheiros/service_029.jpg')" width="50px" border="0" src="service_ficheiros/service_029.jpg">
+<img id="581" onerror="blankImage(this.id)" onmouseover="showImage('img58', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=58')" width="50px" border="0" src="service_files/service_029.jpg">
 <img id="582" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
 <img id="583" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
 <img id="584" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
@@ -500,7 +488,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -527,8 +515,8 @@ var disableLinks = false;
 function show58() {
     if (disableLinks) return;
     var id = "box58";
-    document.getElementById("img58").src = "service_ficheiros/service_029.jpg";
-    document.getElementById("581").src = "service_ficheiros/service_029.jpg";
+    document.getElementById("img58").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=58";
+    document.getElementById("581").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=58";
     document.getElementById("582").src = "";
     document.getElementById("583").src = "";
     document.getElementById("584").src = "";
@@ -551,13 +539,14 @@ function hide58() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show59()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_038.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=59" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show59()"><img class="animalimg" height="150px" width="150px" src="service_files/service_038.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show59()">Boganga</a><br>
@@ -571,7 +560,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="591" onerror="blankImage(this.id)" onmouseover="showImage('img59', 'service_ficheiros/service_038.jpg')" width="50px" border="0" src="service_ficheiros/service_038.jpg">
+<img id="591" onerror="blankImage(this.id)" onmouseover="showImage('img59', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=59')" width="50px" border="0" src="service_files/service_038.jpg">
 <img id="592" onerror="blankImage(this.id)" onmouseover="showImage('img59', '')" width="50px" border="0" src="">
 <img id="593" onerror="blankImage(this.id)" onmouseover="showImage('img59', '')" width="50px" border="0" src="">
 <img id="594" onerror="blankImage(this.id)" onmouseover="showImage('img59', '')" width="50px" border="0" src="">
@@ -609,7 +598,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -635,8 +624,8 @@ var disableLinks = false;
 function show59() {
     if (disableLinks) return;
     var id = "box59";
-    document.getElementById("img59").src = "service_ficheiros/service_038.jpg";
-    document.getElementById("591").src = "service_ficheiros/service_038.jpg";
+    document.getElementById("img59").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=59";
+    document.getElementById("591").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=59";
     document.getElementById("592").src = "";
     document.getElementById("593").src = "";
     document.getElementById("594").src = "";
@@ -659,13 +648,14 @@ function hide59() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show70()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_034.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=70" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show70()"><img class="animalimg" height="150px" width="150px" src="service_files/service_034.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show70()">Boris</a><br>
@@ -679,7 +669,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="701" onerror="blankImage(this.id)" onmouseover="showImage('img70', 'service_ficheiros/service_034.jpg')" width="50px" border="0" src="service_ficheiros/service_034.jpg">
+<img id="701" onerror="blankImage(this.id)" onmouseover="showImage('img70', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=70')" width="50px" border="0" src="service_files/service_034.jpg">
 <img id="702" onerror="blankImage(this.id)" onmouseover="showImage('img70', '')" width="50px" border="0" src="">
 <img id="703" onerror="blankImage(this.id)" onmouseover="showImage('img70', '')" width="50px" border="0" src="">
 <img id="704" onerror="blankImage(this.id)" onmouseover="showImage('img70', '')" width="50px" border="0" src="">
@@ -745,8 +735,8 @@ var disableLinks = false;
 function show70() {
     if (disableLinks) return;
     var id = "box70";
-    document.getElementById("img70").src = "service_ficheiros/service_034.jpg";
-    document.getElementById("701").src = "service_ficheiros/service_034.jpg";
+    document.getElementById("img70").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=70";
+    document.getElementById("701").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=70";
     document.getElementById("702").src = "";
     document.getElementById("703").src = "";
     document.getElementById("704").src = "";
@@ -769,13 +759,14 @@ function hide70() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show28()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_009.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=28" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show28()"><img class="animalimg" height="150px" width="150px" src="service_files/service_009.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show28()">Bowie / Pipa</a><br>
@@ -789,7 +780,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="281" onerror="blankImage(this.id)" onmouseover="showImage('img28', 'service_ficheiros/service_009.jpg')" width="50px" border="0" src="service_ficheiros/service_009.jpg">
+<img id="281" onerror="blankImage(this.id)" onmouseover="showImage('img28', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=28')" width="50px" border="0" src="service_files/service_009.jpg">
 <img id="282" onerror="blankImage(this.id)" onmouseover="showImage('img28', '')" width="50px" border="0" src="">
 <img id="283" onerror="blankImage(this.id)" onmouseover="showImage('img28', '')" width="50px" border="0" src="">
 <img id="284" onerror="blankImage(this.id)" onmouseover="showImage('img28', '')" width="50px" border="0" src="">
@@ -827,7 +818,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -854,8 +845,8 @@ var disableLinks = false;
 function show28() {
     if (disableLinks) return;
     var id = "box28";
-    document.getElementById("img28").src = "service_ficheiros/service_009.jpg";
-    document.getElementById("281").src = "service_ficheiros/service_009.jpg";
+    document.getElementById("img28").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=28";
+    document.getElementById("281").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=28";
     document.getElementById("282").src = "";
     document.getElementById("283").src = "";
     document.getElementById("284").src = "";
@@ -878,13 +869,14 @@ function hide28() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show17()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_018.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=17" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show17()"><img class="animalimg" height="150px" width="150px" src="service_files/service_018.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show17()">Bragaparque</a><br>
@@ -898,7 +890,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="171" onerror="blankImage(this.id)" onmouseover="showImage('img17', 'service_ficheiros/service_018.jpg')" width="50px" border="0" src="service_ficheiros/service_018.jpg">
+<img id="171" onerror="blankImage(this.id)" onmouseover="showImage('img17', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=17')" width="50px" border="0" src="service_files/service_018.jpg">
 <img id="172" onerror="blankImage(this.id)" onmouseover="showImage('img17', '')" width="50px" border="0" src="">
 <img id="173" onerror="blankImage(this.id)" onmouseover="showImage('img17', '')" width="50px" border="0" src="">
 <img id="174" onerror="blankImage(this.id)" onmouseover="showImage('img17', '')" width="50px" border="0" src="">
@@ -965,8 +957,8 @@ var disableLinks = false;
 function show17() {
     if (disableLinks) return;
     var id = "box17";
-    document.getElementById("img17").src = "service_ficheiros/service_018.jpg";
-    document.getElementById("171").src = "service_ficheiros/service_018.jpg";
+    document.getElementById("img17").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=17";
+    document.getElementById("171").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=17";
     document.getElementById("172").src = "";
     document.getElementById("173").src = "";
     document.getElementById("174").src = "";
@@ -989,13 +981,14 @@ function hide17() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show19()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_023.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=19" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show19()"><img class="animalimg" height="150px" width="150px" src="service_files/service_023.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show19()">Branquinha</a><br>
@@ -1009,7 +1002,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="191" onerror="blankImage(this.id)" onmouseover="showImage('img19', 'service_ficheiros/service_023.jpg')" width="50px" border="0" src="service_ficheiros/service_023.jpg">
+<img id="191" onerror="blankImage(this.id)" onmouseover="showImage('img19', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=19')" width="50px" border="0" src="service_files/service_023.jpg">
 <img id="192" onerror="blankImage(this.id)" onmouseover="showImage('img19', '')" width="50px" border="0" src="">
 <img id="193" onerror="blankImage(this.id)" onmouseover="showImage('img19', '')" width="50px" border="0" src="">
 <img id="194" onerror="blankImage(this.id)" onmouseover="showImage('img19', '')" width="50px" border="0" src="">
@@ -1047,7 +1040,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1074,8 +1067,8 @@ var disableLinks = false;
 function show19() {
     if (disableLinks) return;
     var id = "box19";
-    document.getElementById("img19").src = "service_ficheiros/service_023.jpg";
-    document.getElementById("191").src = "service_ficheiros/service_023.jpg";
+    document.getElementById("img19").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=19";
+    document.getElementById("191").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=19";
     document.getElementById("192").src = "";
     document.getElementById("193").src = "";
     document.getElementById("194").src = "";
@@ -1098,13 +1091,14 @@ function hide19() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show25()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_020.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=25" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show25()"><img class="animalimg" height="150px" width="150px" src="service_files/service_020.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show25()">Brownie</a><br>
@@ -1118,7 +1112,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="251" onerror="blankImage(this.id)" onmouseover="showImage('img25', 'service_ficheiros/service_020.jpg')" width="50px" border="0" src="service_ficheiros/service_020.jpg">
+<img id="251" onerror="blankImage(this.id)" onmouseover="showImage('img25', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=25')" width="50px" border="0" src="service_files/service_020.jpg">
 <img id="252" onerror="blankImage(this.id)" onmouseover="showImage('img25', '')" width="50px" border="0" src="">
 <img id="253" onerror="blankImage(this.id)" onmouseover="showImage('img25', '')" width="50px" border="0" src="">
 <img id="254" onerror="blankImage(this.id)" onmouseover="showImage('img25', '')" width="50px" border="0" src="">
@@ -1156,7 +1150,7 @@ Masculino
     if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -1185,8 +1179,8 @@ var disableLinks = false;
 function show25() {
     if (disableLinks) return;
     var id = "box25";
-    document.getElementById("img25").src = "service_ficheiros/service_020.jpg";
-    document.getElementById("251").src = "service_ficheiros/service_020.jpg";
+    document.getElementById("img25").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=25";
+    document.getElementById("251").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=25";
     document.getElementById("252").src = "";
     document.getElementById("253").src = "";
     document.getElementById("254").src = "";
@@ -1209,13 +1203,14 @@ function hide25() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show16()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_022.jpg" border="0" />');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=16" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
         document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
     }
     document.write('</div>');
-</script>
+</script><div class="imgbox"><a href="javascript:show16()"><img class="animalimg" height="150px" width="150px" src="service_files/service_022.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show16()">Bruxinha</a><br>
@@ -1229,7 +1224,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="161" onerror="blankImage(this.id)" onmouseover="showImage('img16', 'service_ficheiros/service_022.jpg')" width="50px" border="0" src="service_ficheiros/service_022.jpg">
+<img id="161" onerror="blankImage(this.id)" onmouseover="showImage('img16', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=16')" width="50px" border="0" src="service_files/service_022.jpg">
 <img id="162" onerror="blankImage(this.id)" onmouseover="showImage('img16', '')" width="50px" border="0" src="">
 <img id="163" onerror="blankImage(this.id)" onmouseover="showImage('img16', '')" width="50px" border="0" src="">
 <img id="164" onerror="blankImage(this.id)" onmouseover="showImage('img16', '')" width="50px" border="0" src="">
@@ -1267,7 +1262,7 @@ Feminino
     if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
     if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
     if ('Não' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
+</script>Simpático com outros gatos <br>NÃO É compatível com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -1294,8 +1289,8 @@ var disableLinks = false;
 function show16() {
     if (disableLinks) return;
     var id = "box16";
-    document.getElementById("img16").src = "service_ficheiros/service_022.jpg";
-    document.getElementById("161").src = "service_ficheiros/service_022.jpg";
+    document.getElementById("img16").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=16";
+    document.getElementById("161").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=16";
     document.getElementById("162").src = "";
     document.getElementById("163").src = "";
     document.getElementById("164").src = "";
@@ -1310,7 +1305,21 @@ function hide16() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show2()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_008.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show2()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=2" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show2()"><img class="animalimg" height="150px" width="150px" src="service_files/service_008.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1325,7 +1334,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="21" onerror="blankImage(this.id)" onmouseover="showImage('img2', 'service_ficheiros/service_008.jpg')" width="50px" border="0" src="service_ficheiros/service_008.jpg">
+<img id="21" onerror="blankImage(this.id)" onmouseover="showImage('img2', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=2')" width="50px" border="0" src="service_files/service_008.jpg">
 <img id="22" onerror="blankImage(this.id)" onmouseover="showImage('img2', '')" width="50px" border="0" src="">
 <img id="23" onerror="blankImage(this.id)" onmouseover="showImage('img2', '')" width="50px" border="0" src="">
 <img id="24" onerror="blankImage(this.id)" onmouseover="showImage('img2', '')" width="50px" border="0" src="">
@@ -1352,7 +1361,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Positivo <br><br>Simpático com outros gatos <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Positivo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Positivo <br><br>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1380,8 +1400,8 @@ var disableLinks = false;
 function show2() {
     if (disableLinks) return;
     var id = "box2";
-    document.getElementById("img2").src = "service_ficheiros/service_008.jpg";
-    document.getElementById("21").src = "service_ficheiros/service_008.jpg";
+    document.getElementById("img2").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=2";
+    document.getElementById("21").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=2";
     document.getElementById("22").src = "";
     document.getElementById("23").src = "";
     document.getElementById("24").src = "";
@@ -1396,7 +1416,21 @@ function hide2() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show64()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_002.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show64()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=64" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show64()"><img class="animalimg" height="150px" width="150px" src="service_files/service_002.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1411,7 +1445,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="641" onerror="blankImage(this.id)" onmouseover="showImage('img64', 'service_ficheiros/service_002.jpg')" width="50px" border="0" src="service_ficheiros/service_002.jpg">
+<img id="641" onerror="blankImage(this.id)" onmouseover="showImage('img64', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=64')" width="50px" border="0" src="service_files/service_002.jpg">
 <img id="642" onerror="blankImage(this.id)" onmouseover="showImage('img64', '')" width="50px" border="0" src="">
 <img id="643" onerror="blankImage(this.id)" onmouseover="showImage('img64', '')" width="50px" border="0" src="">
 <img id="644" onerror="blankImage(this.id)" onmouseover="showImage('img64', '')" width="50px" border="0" src="">
@@ -1438,7 +1472,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1466,8 +1511,8 @@ var disableLinks = false;
 function show64() {
     if (disableLinks) return;
     var id = "box64";
-    document.getElementById("img64").src = "service_ficheiros/service_002.jpg";
-    document.getElementById("641").src = "service_ficheiros/service_002.jpg";
+    document.getElementById("img64").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=64";
+    document.getElementById("641").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=64";
     document.getElementById("642").src = "";
     document.getElementById("643").src = "";
     document.getElementById("644").src = "";
@@ -1481,7 +1526,23 @@ function hide64() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show20()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_004.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show20()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=20" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show20()"><img class="animalimg" height="150px" width="150px" src="service_files/service_004.jpg" border="0"></a></div>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show20()">Daisy</a><br>
@@ -1495,7 +1556,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="201" onerror="blankImage(this.id)" onmouseover="showImage('img20', 'service_ficheiros/service_004.jpg')" width="50px" border="0" src="service_ficheiros/service_004.jpg">
+<img id="201" onerror="blankImage(this.id)" onmouseover="showImage('img20', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=20')" width="50px" border="0" src="service_files/service_004.jpg">
 <img id="202" onerror="blankImage(this.id)" onmouseover="showImage('img20', '')" width="50px" border="0" src="">
 <img id="203" onerror="blankImage(this.id)" onmouseover="showImage('img20', '')" width="50px" border="0" src="">
 <img id="204" onerror="blankImage(this.id)" onmouseover="showImage('img20', '')" width="50px" border="0" src="">
@@ -1522,7 +1583,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -1550,8 +1622,8 @@ var disableLinks = false;
 function show20() {
     if (disableLinks) return;
     var id = "box20";
-    document.getElementById("img20").src = "service_ficheiros/service_004.jpg";
-    document.getElementById("201").src = "service_ficheiros/service_004.jpg";
+    document.getElementById("img20").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=20";
+    document.getElementById("201").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=20";
     document.getElementById("202").src = "";
     document.getElementById("203").src = "";
     document.getElementById("204").src = "";
@@ -1565,7 +1637,22 @@ function hide20() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show30()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_048.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show30()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=30" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show30()"><img class="animalimg" height="150px" width="150px" src="service_files/service_048.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1580,7 +1667,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="301" onerror="blankImage(this.id)" onmouseover="showImage('img30', 'service_ficheiros/service_048.jpg')" width="50px" border="0" src="service_ficheiros/service_048.jpg">
+<img id="301" onerror="blankImage(this.id)" onmouseover="showImage('img30', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=30')" width="50px" border="0" src="service_files/service_048.jpg">
 <img id="302" onerror="blankImage(this.id)" onmouseover="showImage('img30', '')" width="50px" border="0" src="">
 <img id="303" onerror="blankImage(this.id)" onmouseover="showImage('img30', '')" width="50px" border="0" src="">
 <img id="304" onerror="blankImage(this.id)" onmouseover="showImage('img30', '')" width="50px" border="0" src="">
@@ -1607,7 +1694,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -1634,8 +1732,8 @@ var disableLinks = false;
 function show30() {
     if (disableLinks) return;
     var id = "box30";
-    document.getElementById("img30").src = "service_ficheiros/service_048.jpg";
-    document.getElementById("301").src = "service_ficheiros/service_048.jpg";
+    document.getElementById("img30").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=30";
+    document.getElementById("301").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=30";
     document.getElementById("302").src = "";
     document.getElementById("303").src = "";
     document.getElementById("304").src = "";
@@ -1649,7 +1747,22 @@ function hide30() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show38()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_053.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show38()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=38" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show38()"><img class="animalimg" height="150px" width="150px" src="service_files/service_053.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1664,8 +1777,8 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="381" onerror="blankImage(this.id)" onmouseover="showImage('img38', 'service_ficheiros/service_053.jpg')" width="50px" border="0" src="service_ficheiros/service_053.jpg">
-<img id="382" onerror="blankImage(this.id)" onmouseover="showImage('img38', 'service_ficheiros/service_042.jpg')" width="50px" border="0" src="service_ficheiros/service_042.jpg">
+<img id="381" onerror="blankImage(this.id)" onmouseover="showImage('img38', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=38')" width="50px" border="0" src="service_files/service_053.jpg">
+<img id="382" onerror="blankImage(this.id)" onmouseover="showImage('img38', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=38&amp;seq=2')" width="50px" border="0" src="service_files/service_042.jpg">
 <img id="383" onerror="blankImage(this.id)" onmouseover="showImage('img38', '')" width="50px" border="0" src="">
 <img id="384" onerror="blankImage(this.id)" onmouseover="showImage('img38', '')" width="50px" border="0" src="">
 <br>
@@ -1691,7 +1804,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1719,9 +1843,9 @@ var disableLinks = false;
 function show38() {
     if (disableLinks) return;
     var id = "box38";
-    document.getElementById("img38").src = "service_ficheiros/service_053.jpg";
-    document.getElementById("381").src = "service_ficheiros/service_053.jpg";
-    document.getElementById("382").src = "service_ficheiros/service_042.jpg";
+    document.getElementById("img38").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=38";
+    document.getElementById("381").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=38";
+    document.getElementById("382").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=38&seq=2";
     document.getElementById("383").src = "";
     document.getElementById("384").src = "";
     document.getElementById(id).style.display = "block";
@@ -1735,7 +1859,21 @@ function hide38() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show7()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_012.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show7()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=7" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show7()"><img class="animalimg" height="150px" width="150px" src="service_files/service_012.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1750,7 +1888,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="71" onerror="blankImage(this.id)" onmouseover="showImage('img7', 'service_ficheiros/service_012.jpg')" width="50px" border="0" src="service_ficheiros/service_012.jpg">
+<img id="71" onerror="blankImage(this.id)" onmouseover="showImage('img7', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=7')" width="50px" border="0" src="service_files/service_012.jpg">
 <img id="72" onerror="blankImage(this.id)" onmouseover="showImage('img7', '')" width="50px" border="0" src="">
 <img id="73" onerror="blankImage(this.id)" onmouseover="showImage('img7', '')" width="50px" border="0" src="">
 <img id="74" onerror="blankImage(this.id)" onmouseover="showImage('img7', '')" width="50px" border="0" src="">
@@ -1777,7 +1915,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1805,8 +1954,8 @@ var disableLinks = false;
 function show7() {
     if (disableLinks) return;
     var id = "box7";
-    document.getElementById("img7").src = "service_ficheiros/service_012.jpg";
-    document.getElementById("71").src = "service_ficheiros/service_012.jpg";
+    document.getElementById("img7").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=7";
+    document.getElementById("71").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=7";
     document.getElementById("72").src = "";
     document.getElementById("73").src = "";
     document.getElementById("74").src = "";
@@ -1821,7 +1970,21 @@ function hide7() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show51()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_046.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show51()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=51" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show51()"><img class="animalimg" height="150px" width="150px" src="service_files/service_046.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1836,8 +1999,8 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="511" onerror="blankImage(this.id)" onmouseover="showImage('img51', 'service_ficheiros/service_046.jpg')" width="50px" border="0" src="service_ficheiros/service_046.jpg">
-<img id="512" onerror="blankImage(this.id)" onmouseover="showImage('img51', 'service_ficheiros/service_005.jpg')" width="50px" border="0" src="service_ficheiros/service_005.jpg">
+<img id="511" onerror="blankImage(this.id)" onmouseover="showImage('img51', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=51')" width="50px" border="0" src="service_files/service_046.jpg">
+<img id="512" onerror="blankImage(this.id)" onmouseover="showImage('img51', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=51&amp;seq=2')" width="50px" border="0" src="service_files/service_005.jpg">
 <img id="513" onerror="blankImage(this.id)" onmouseover="showImage('img51', '')" width="50px" border="0" src="">
 <img id="514" onerror="blankImage(this.id)" onmouseover="showImage('img51', '')" width="50px" border="0" src="">
 <br>
@@ -1863,7 +2026,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -1891,9 +2065,9 @@ var disableLinks = false;
 function show51() {
     if (disableLinks) return;
     var id = "box51";
-    document.getElementById("img51").src = "service_ficheiros/service_046.jpg";
-    document.getElementById("511").src = "service_ficheiros/service_046.jpg";
-    document.getElementById("512").src = "service_ficheiros/service_005.jpg";
+    document.getElementById("img51").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=51";
+    document.getElementById("511").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=51";
+    document.getElementById("512").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=51&seq=2";
     document.getElementById("513").src = "";
     document.getElementById("514").src = "";
     document.getElementById(id).style.display = "block";
@@ -1906,7 +2080,22 @@ function hide51() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show9()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_057.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show9()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=9" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show9()"><img class="animalimg" height="150px" width="150px" src="service_files/service_057.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -1921,7 +2110,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="91" onerror="blankImage(this.id)" onmouseover="showImage('img9', 'service_ficheiros/service_057.jpg')" width="50px" border="0" src="service_ficheiros/service_057.jpg">
+<img id="91" onerror="blankImage(this.id)" onmouseover="showImage('img9', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=9')" width="50px" border="0" src="service_files/service_057.jpg">
 <img id="92" onerror="blankImage(this.id)" onmouseover="showImage('img9', '')" width="50px" border="0" src="">
 <img id="93" onerror="blankImage(this.id)" onmouseover="showImage('img9', '')" width="50px" border="0" src="">
 <img id="94" onerror="blankImage(this.id)" onmouseover="showImage('img9', '')" width="50px" border="0" src="">
@@ -1948,7 +2137,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -1976,8 +2176,8 @@ var disableLinks = false;
 function show9() {
     if (disableLinks) return;
     var id = "box9";
-    document.getElementById("img9").src = "service_ficheiros/service_057.jpg";
-    document.getElementById("91").src = "service_ficheiros/service_057.jpg";
+    document.getElementById("img9").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=9";
+    document.getElementById("91").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=9";
     document.getElementById("92").src = "";
     document.getElementById("93").src = "";
     document.getElementById("94").src = "";
@@ -1992,7 +2192,21 @@ function hide9() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show23()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_010.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show23()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=23" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show23()"><img class="animalimg" height="150px" width="150px" src="service_files/service_010.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2007,7 +2221,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="231" onerror="blankImage(this.id)" onmouseover="showImage('img23', 'service_ficheiros/service_010.jpg')" width="50px" border="0" src="service_ficheiros/service_010.jpg">
+<img id="231" onerror="blankImage(this.id)" onmouseover="showImage('img23', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=23')" width="50px" border="0" src="service_files/service_010.jpg">
 <img id="232" onerror="blankImage(this.id)" onmouseover="showImage('img23', '')" width="50px" border="0" src="">
 <img id="233" onerror="blankImage(this.id)" onmouseover="showImage('img23', '')" width="50px" border="0" src="">
 <img id="234" onerror="blankImage(this.id)" onmouseover="showImage('img23', '')" width="50px" border="0" src="">
@@ -2034,7 +2248,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2061,8 +2286,8 @@ var disableLinks = false;
 function show23() {
     if (disableLinks) return;
     var id = "box23";
-    document.getElementById("img23").src = "service_ficheiros/service_010.jpg";
-    document.getElementById("231").src = "service_ficheiros/service_010.jpg";
+    document.getElementById("img23").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=23";
+    document.getElementById("231").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=23";
     document.getElementById("232").src = "";
     document.getElementById("233").src = "";
     document.getElementById("234").src = "";
@@ -2076,7 +2301,22 @@ function hide23() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show71()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_024.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show71()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=71" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show71()"><img class="animalimg" height="150px" width="150px" src="service_files/service_024.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2091,7 +2331,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="711" onerror="blankImage(this.id)" onmouseover="showImage('img71', 'service_ficheiros/service_024.jpg')" width="50px" border="0" src="service_ficheiros/service_024.jpg">
+<img id="711" onerror="blankImage(this.id)" onmouseover="showImage('img71', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=71')" width="50px" border="0" src="service_files/service_024.jpg">
 <img id="712" onerror="blankImage(this.id)" onmouseover="showImage('img71', '')" width="50px" border="0" src="">
 <img id="713" onerror="blankImage(this.id)" onmouseover="showImage('img71', '')" width="50px" border="0" src="">
 <img id="714" onerror="blankImage(this.id)" onmouseover="showImage('img71', '')" width="50px" border="0" src="">
@@ -2157,8 +2397,8 @@ var disableLinks = false;
 function show71() {
     if (disableLinks) return;
     var id = "box71";
-    document.getElementById("img71").src = "service_ficheiros/service_024.jpg";
-    document.getElementById("711").src = "service_ficheiros/service_024.jpg";
+    document.getElementById("img71").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=71";
+    document.getElementById("711").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=71";
     document.getElementById("712").src = "";
     document.getElementById("713").src = "";
     document.getElementById("714").src = "";
@@ -2173,7 +2413,21 @@ function hide71() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show52()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_019.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show52()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=52" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show52()"><img class="animalimg" height="150px" width="150px" src="service_files/service_019.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2188,7 +2442,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="521" onerror="blankImage(this.id)" onmouseover="showImage('img52', 'service_ficheiros/service_019.jpg')" width="50px" border="0" src="service_ficheiros/service_019.jpg">
+<img id="521" onerror="blankImage(this.id)" onmouseover="showImage('img52', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=52')" width="50px" border="0" src="service_files/service_019.jpg">
 <img id="522" onerror="blankImage(this.id)" onmouseover="showImage('img52', '')" width="50px" border="0" src="">
 <img id="523" onerror="blankImage(this.id)" onmouseover="showImage('img52', '')" width="50px" border="0" src="">
 <img id="524" onerror="blankImage(this.id)" onmouseover="showImage('img52', '')" width="50px" border="0" src="">
@@ -2253,8 +2507,8 @@ var disableLinks = false;
 function show52() {
     if (disableLinks) return;
     var id = "box52";
-    document.getElementById("img52").src = "service_ficheiros/service_019.jpg";
-    document.getElementById("521").src = "service_ficheiros/service_019.jpg";
+    document.getElementById("img52").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=52";
+    document.getElementById("521").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=52";
     document.getElementById("522").src = "";
     document.getElementById("523").src = "";
     document.getElementById("524").src = "";
@@ -2269,7 +2523,21 @@ function hide52() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show35()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_014.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show35()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=35" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show35()"><img class="animalimg" height="150px" width="150px" src="service_files/service_014.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2284,7 +2552,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="351" onerror="blankImage(this.id)" onmouseover="showImage('img35', 'service_ficheiros/service_014.jpg')" width="50px" border="0" src="service_ficheiros/service_014.jpg">
+<img id="351" onerror="blankImage(this.id)" onmouseover="showImage('img35', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=35')" width="50px" border="0" src="service_files/service_014.jpg">
 <img id="352" onerror="blankImage(this.id)" onmouseover="showImage('img35', '')" width="50px" border="0" src="">
 <img id="353" onerror="blankImage(this.id)" onmouseover="showImage('img35', '')" width="50px" border="0" src="">
 <img id="354" onerror="blankImage(this.id)" onmouseover="showImage('img35', '')" width="50px" border="0" src="">
@@ -2311,7 +2579,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>
 </span></td>
 </tr>
   <tr>
@@ -2340,8 +2619,8 @@ var disableLinks = false;
 function show35() {
     if (disableLinks) return;
     var id = "box35";
-    document.getElementById("img35").src = "service_ficheiros/service_014.jpg";
-    document.getElementById("351").src = "service_ficheiros/service_014.jpg";
+    document.getElementById("img35").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=35";
+    document.getElementById("351").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=35";
     document.getElementById("352").src = "";
     document.getElementById("353").src = "";
     document.getElementById("354").src = "";
@@ -2356,7 +2635,21 @@ function hide35() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show34()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_017.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show34()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=34" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show34()"><img class="animalimg" height="150px" width="150px" src="service_files/service_017.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2371,7 +2664,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="341" onerror="blankImage(this.id)" onmouseover="showImage('img34', 'service_ficheiros/service_017.jpg')" width="50px" border="0" src="service_ficheiros/service_017.jpg">
+<img id="341" onerror="blankImage(this.id)" onmouseover="showImage('img34', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=34')" width="50px" border="0" src="service_files/service_017.jpg">
 <img id="342" onerror="blankImage(this.id)" onmouseover="showImage('img34', '')" width="50px" border="0" src="">
 <img id="343" onerror="blankImage(this.id)" onmouseover="showImage('img34', '')" width="50px" border="0" src="">
 <img id="344" onerror="blankImage(this.id)" onmouseover="showImage('img34', '')" width="50px" border="0" src="">
@@ -2398,7 +2691,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2426,8 +2730,8 @@ var disableLinks = false;
 function show34() {
     if (disableLinks) return;
     var id = "box34";
-    document.getElementById("img34").src = "service_ficheiros/service_017.jpg";
-    document.getElementById("341").src = "service_ficheiros/service_017.jpg";
+    document.getElementById("img34").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=34";
+    document.getElementById("341").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=34";
     document.getElementById("342").src = "";
     document.getElementById("343").src = "";
     document.getElementById("344").src = "";
@@ -2441,7 +2745,22 @@ function hide34() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show50()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_037.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show50()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=50" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show50()"><img class="animalimg" height="150px" width="150px" src="service_files/service_037.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2456,7 +2775,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="501" onerror="blankImage(this.id)" onmouseover="showImage('img50', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=50')" width="50px" border="0" src="service_ficheiros/service_037.jpg">
+<img id="501" onerror="blankImage(this.id)" onmouseover="showImage('img50', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=50')" width="50px" border="0" src="service_files/service_037.jpg">
 <img id="502" onerror="blankImage(this.id)" onmouseover="showImage('img50', '')" width="50px" border="0" src="">
 <img id="503" onerror="blankImage(this.id)" onmouseover="showImage('img50', '')" width="50px" border="0" src="">
 <img id="504" onerror="blankImage(this.id)" onmouseover="showImage('img50', '')" width="50px" border="0" src="">
@@ -2483,7 +2802,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -2511,8 +2841,8 @@ var disableLinks = false;
 function show50() {
     if (disableLinks) return;
     var id = "box50";
-    document.getElementById("img50").src = "service_ficheiros/service_037.jpg";
-    document.getElementById("501").src = "service_ficheiros/service_037.jpg";
+    document.getElementById("img50").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=50";
+    document.getElementById("501").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=50";
     document.getElementById("502").src = "";
     document.getElementById("503").src = "";
     document.getElementById("504").src = "";
@@ -2527,7 +2857,21 @@ function hide50() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show69()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_052.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show69()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=69" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show69()"><img class="animalimg" height="150px" width="150px" src="service_files/service_052.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2542,7 +2886,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="691" onerror="blankImage(this.id)" onmouseover="showImage('img69', 'service_ficheiros/service_052.jpg')" width="50px" border="0" src="service_ficheiros/service_052.jpg">
+<img id="691" onerror="blankImage(this.id)" onmouseover="showImage('img69', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=69')" width="50px" border="0" src="service_files/service_052.jpg">
 <img id="692" onerror="blankImage(this.id)" onmouseover="showImage('img69', '')" width="50px" border="0" src="">
 <img id="693" onerror="blankImage(this.id)" onmouseover="showImage('img69', '')" width="50px" border="0" src="">
 <img id="694" onerror="blankImage(this.id)" onmouseover="showImage('img69', '')" width="50px" border="0" src="">
@@ -2569,7 +2913,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -2597,8 +2952,8 @@ var disableLinks = false;
 function show69() {
     if (disableLinks) return;
     var id = "box69";
-    document.getElementById("img69").src = "service_ficheiros/service_052.jpg";
-    document.getElementById("691").src = "service_ficheiros/service_052.jpg";
+    document.getElementById("img69").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=69";
+    document.getElementById("691").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=69";
     document.getElementById("692").src = "";
     document.getElementById("693").src = "";
     document.getElementById("694").src = "";
@@ -2613,7 +2968,21 @@ function hide69() {
 </script>
 <div class="box">
 
-    <div class="imgbox"><a href="javascript:show55()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_016.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show55()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=55" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show55()"><img class="animalimg" height="150px" width="150px" src="service_files/service_016.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2628,7 +2997,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="551" onerror="blankImage(this.id)" onmouseover="showImage('img55', 'service_ficheiros/service_052.jpg')" width="50px" border="0" src="service_ficheiros/service_016.jpg">
+<img id="551" onerror="blankImage(this.id)" onmouseover="showImage('img55', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=55')" width="50px" border="0" src="service_files/service_016.jpg">
 <img id="552" onerror="blankImage(this.id)" onmouseover="showImage('img55', '')" width="50px" border="0" src="">
 <img id="553" onerror="blankImage(this.id)" onmouseover="showImage('img55', '')" width="50px" border="0" src="">
 <img id="554" onerror="blankImage(this.id)" onmouseover="showImage('img55', '')" width="50px" border="0" src="">
@@ -2655,7 +3024,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2680,8 +3060,8 @@ var disableLinks = false;
 function show55() {
     if (disableLinks) return;
     var id = "box55";
-    document.getElementById("img55").src = "service_ficheiros/service_052.jpg";
-    document.getElementById("551").src = "service_ficheiros/service_052.jpg";
+    document.getElementById("img55").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=55";
+    document.getElementById("551").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=55";
     document.getElementById("552").src = "";
     document.getElementById("553").src = "";
     document.getElementById("554").src = "";
@@ -2695,7 +3075,22 @@ function hide55() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show36()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_030.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show36()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=36" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show36()"><img class="animalimg" height="150px" width="150px" src="service_files/service_030.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2710,8 +3105,8 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="361" onerror="blankImage(this.id)" onmouseover="showImage('img36', 'service_ficheiros/service_030.jpg')" width="50px" border="0" src="service_ficheiros/service_030.jpg">
-<img id="362" onerror="blankImage(this.id)" onmouseover="showImage('img36', 'service_ficheiros/service_015.jpg')" width="50px" border="0" src="service_ficheiros/service_015.jpg">
+<img id="361" onerror="blankImage(this.id)" onmouseover="showImage('img36', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=36')" width="50px" border="0" src="service_files/service_030.jpg">
+<img id="362" onerror="blankImage(this.id)" onmouseover="showImage('img36', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=36&amp;seq=2')" width="50px" border="0" src="service_files/service_015.jpg">
 <img id="363" onerror="blankImage(this.id)" onmouseover="showImage('img36', '')" width="50px" border="0" src="">
 <img id="364" onerror="blankImage(this.id)" onmouseover="showImage('img36', '')" width="50px" border="0" src="">
 <br>
@@ -2737,7 +3132,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Desconhecido <br> FeLV: Positivo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Desconhecido <br /> FeLV: Positivo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Desconhecido <br> FeLV: Positivo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2765,9 +3171,9 @@ var disableLinks = false;
 function show36() {
     if (disableLinks) return;
     var id = "box36";
-    document.getElementById("img36").src = "service_ficheiros/service_030.jpg";
-    document.getElementById("361").src = "service_ficheiros/service_030.jpg";
-    document.getElementById("362").src = "service_ficheiros/service_015.jpg";
+    document.getElementById("img36").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=36";
+    document.getElementById("361").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=36";
+    document.getElementById("362").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=36&seq=2";
     document.getElementById("363").src = "";
     document.getElementById("364").src = "";
     document.getElementById(id).style.display = "block";
@@ -2781,7 +3187,21 @@ function hide36() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show13()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_049.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show13()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=13" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show13()"><img class="animalimg" height="150px" width="150px" src="service_files/service_049.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2796,7 +3216,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="131" onerror="blankImage(this.id)" onmouseover="showImage('img13', 'service_ficheiros/service_049.jpg')" width="50px" border="0" src="service_ficheiros/service_049.jpg">
+<img id="131" onerror="blankImage(this.id)" onmouseover="showImage('img13', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=13')" width="50px" border="0" src="service_files/service_049.jpg">
 <img id="132" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
 <img id="133" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
 <img id="134" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
@@ -2823,7 +3243,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2850,8 +3281,8 @@ var disableLinks = false;
 function show13() {
     if (disableLinks) return;
     var id = "box13";
-    document.getElementById("img13").src = "service_ficheiros/service_049.jpg";
-    document.getElementById("131").src = "service_ficheiros/service_049.jpg";
+    document.getElementById("img13").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=13";
+    document.getElementById("131").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=13";
     document.getElementById("132").src = "";
     document.getElementById("133").src = "";
     document.getElementById("134").src = "";
@@ -2866,7 +3297,21 @@ function hide13() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show39()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_047.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show39()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=39" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show39()"><img class="animalimg" height="150px" width="150px" src="service_files/service_047.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2881,7 +3326,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="391" onerror="blankImage(this.id)" onmouseover="showImage('img39', 'service_ficheiros/service_047.jpg')" width="50px" border="0" src="service_ficheiros/service_047.jpg">
+<img id="391" onerror="blankImage(this.id)" onmouseover="showImage('img39', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=39')" width="50px" border="0" src="service_files/service_047.jpg">
 <img id="392" onerror="blankImage(this.id)" onmouseover="showImage('img39', '')" width="50px" border="0" src="">
 <img id="393" onerror="blankImage(this.id)" onmouseover="showImage('img39', '')" width="50px" border="0" src="">
 <img id="394" onerror="blankImage(this.id)" onmouseover="showImage('img39', '')" width="50px" border="0" src="">
@@ -2908,7 +3353,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -2936,8 +3392,8 @@ var disableLinks = false;
 function show39() {
     if (disableLinks) return;
     var id = "box39";
-    document.getElementById("img39").src = "service_ficheiros/service_047.jpg";
-    document.getElementById("391").src = "service_ficheiros/service_047.jpg";
+    document.getElementById("img39").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=39";
+    document.getElementById("391").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=39";
     document.getElementById("392").src = "";
     document.getElementById("393").src = "";
     document.getElementById("394").src = "";
@@ -2952,7 +3408,21 @@ function hide39() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show43()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_032.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show43()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=43" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show43()"><img class="animalimg" height="150px" width="150px" src="service_files/service_032.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -2967,7 +3437,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="431" onerror="blankImage(this.id)" onmouseover="showImage('img43', 'service_ficheiros/service_032.jpg')" width="50px" border="0" src="service_ficheiros/service_032.jpg">
+<img id="431" onerror="blankImage(this.id)" onmouseover="showImage('img43', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=43')" width="50px" border="0" src="service_files/service_032.jpg">
 <img id="432" onerror="blankImage(this.id)" onmouseover="showImage('img43', '')" width="50px" border="0" src="">
 <img id="433" onerror="blankImage(this.id)" onmouseover="showImage('img43', '')" width="50px" border="0" src="">
 <img id="434" onerror="blankImage(this.id)" onmouseover="showImage('img43', '')" width="50px" border="0" src="">
@@ -2994,7 +3464,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Positivo <br> FeLV: Negativo <br><br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Positivo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -3022,8 +3503,8 @@ var disableLinks = false;
 function show43() {
     if (disableLinks) return;
     var id = "box43";
-    document.getElementById("img43").src = "service_ficheiros/service_032.jpg";
-    document.getElementById("431").src = "service_ficheiros/service_032.jpg";
+    document.getElementById("img43").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=43";
+    document.getElementById("431").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=43";
     document.getElementById("432").src = "";
     document.getElementById("433").src = "";
     document.getElementById("434").src = "";
@@ -3038,7 +3519,21 @@ function hide43() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show14()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_011.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show14()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=14" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show14()"><img class="animalimg" height="150px" width="150px" src="service_files/service_011.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3053,7 +3548,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="141" onerror="blankImage(this.id)" onmouseover="showImage('img14', 'service_ficheiros/service_011.jpg')" width="50px" border="0" src="service_ficheiros/service_011.jpg">
+<img id="141" onerror="blankImage(this.id)" onmouseover="showImage('img14', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=14')" width="50px" border="0" src="service_files/service_011.jpg">
 <img id="142" onerror="blankImage(this.id)" onmouseover="showImage('img14', '')" width="50px" border="0" src="">
 <img id="143" onerror="blankImage(this.id)" onmouseover="showImage('img14', '')" width="50px" border="0" src="">
 <img id="144" onerror="blankImage(this.id)" onmouseover="showImage('img14', '')" width="50px" border="0" src="">
@@ -3080,7 +3575,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3109,8 +3615,8 @@ var disableLinks = false;
 function show14() {
     if (disableLinks) return;
     var id = "box14";
-    document.getElementById("img14").src = "service_ficheiros/service_011.jpg";
-    document.getElementById("141").src = "service_ficheiros/service_011.jpg";
+    document.getElementById("img14").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=14";
+    document.getElementById("141").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=14";
     document.getElementById("142").src = "";
     document.getElementById("143").src = "";
     document.getElementById("144").src = "";
@@ -3125,7 +3631,21 @@ function hide14() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show10()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_040.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show10()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=10" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show10()"><img class="animalimg" height="150px" width="150px" src="service_files/service_040.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3140,7 +3660,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="101" onerror="blankImage(this.id)" onmouseover="showImage('img10', 'service_ficheiros/service_040.jpg')" width="50px" border="0" src="service_ficheiros/service_040.jpg">
+<img id="101" onerror="blankImage(this.id)" onmouseover="showImage('img10', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=10')" width="50px" border="0" src="service_files/service_040.jpg">
 <img id="102" onerror="blankImage(this.id)" onmouseover="showImage('img10', '')" width="50px" border="0" src="">
 <img id="103" onerror="blankImage(this.id)" onmouseover="showImage('img10', '')" width="50px" border="0" src="">
 <img id="104" onerror="blankImage(this.id)" onmouseover="showImage('img10', '')" width="50px" border="0" src="">
@@ -3167,7 +3687,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -3195,8 +3726,8 @@ var disableLinks = false;
 function show10() {
     if (disableLinks) return;
     var id = "box10";
-    document.getElementById("img10").src = "service_ficheiros/service_040.jpg";
-    document.getElementById("101").src = "service_ficheiros/service_040.jpg";
+    document.getElementById("img10").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=10";
+    document.getElementById("101").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=10";
     document.getElementById("102").src = "";
     document.getElementById("103").src = "";
     document.getElementById("104").src = "";
@@ -3211,7 +3742,21 @@ function hide10() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show33()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_054.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show33()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=33" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show33()"><img class="animalimg" height="150px" width="150px" src="service_files/service_054.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3226,7 +3771,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="331" onerror="blankImage(this.id)" onmouseover="showImage('img33', 'service_ficheiros/service_054.jpg')" width="50px" border="0" src="service_ficheiros/service_054.jpg">
+<img id="331" onerror="blankImage(this.id)" onmouseover="showImage('img33', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=33')" width="50px" border="0" src="service_files/service_054.jpg">
 <img id="332" onerror="blankImage(this.id)" onmouseover="showImage('img33', '')" width="50px" border="0" src="">
 <img id="333" onerror="blankImage(this.id)" onmouseover="showImage('img33', '')" width="50px" border="0" src="">
 <img id="334" onerror="blankImage(this.id)" onmouseover="showImage('img33', '')" width="50px" border="0" src="">
@@ -3253,7 +3798,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3282,8 +3838,8 @@ var disableLinks = false;
 function show33() {
     if (disableLinks) return;
     var id = "box33";
-    document.getElementById("img33").src = "service_ficheiros/service_054.jpg";
-    document.getElementById("331").src = "service_ficheiros/service_054.jpg";
+    document.getElementById("img33").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=33";
+    document.getElementById("331").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=33";
     document.getElementById("332").src = "";
     document.getElementById("333").src = "";
     document.getElementById("334").src = "";
@@ -3297,7 +3853,22 @@ function hide33() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show57()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_003.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show57()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=57" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show57()"><img class="animalimg" height="150px" width="150px" src="service_files/service_003.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3312,7 +3883,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="571" onerror="blankImage(this.id)" onmouseover="showImage('img57', 'service_ficheiros/service_003.jpg')" width="50px" border="0" src="service_ficheiros/service_003.jpg">
+<img id="571" onerror="blankImage(this.id)" onmouseover="showImage('img57', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=57')" width="50px" border="0" src="service_files/service_003.jpg">
 <img id="572" onerror="blankImage(this.id)" onmouseover="showImage('img57', '')" width="50px" border="0" src="">
 <img id="573" onerror="blankImage(this.id)" onmouseover="showImage('img57', '')" width="50px" border="0" src="">
 <img id="574" onerror="blankImage(this.id)" onmouseover="showImage('img57', '')" width="50px" border="0" src="">
@@ -3339,7 +3910,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3367,8 +3949,8 @@ var disableLinks = false;
 function show57() {
     if (disableLinks) return;
     var id = "box57";
-    document.getElementById("img57").src = "service_ficheiros/service_003.jpg";
-    document.getElementById("571").src = "service_ficheiros/service_003.jpg";
+    document.getElementById("img57").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=57";
+    document.getElementById("571").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=57";
     document.getElementById("572").src = "";
     document.getElementById("573").src = "";
     document.getElementById("574").src = "";
@@ -3383,7 +3965,21 @@ function hide57() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show21()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_058.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show21()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=21" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show21()"><img class="animalimg" height="150px" width="150px" src="service_files/service_058.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3398,7 +3994,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="211" onerror="blankImage(this.id)" onmouseover="showImage('img21', 'service_ficheiros/service_058.jpg')" width="50px" border="0" src="service_ficheiros/service_058.jpg">
+<img id="211" onerror="blankImage(this.id)" onmouseover="showImage('img21', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=21')" width="50px" border="0" src="service_files/service_058.jpg">
 <img id="212" onerror="blankImage(this.id)" onmouseover="showImage('img21', '')" width="50px" border="0" src="">
 <img id="213" onerror="blankImage(this.id)" onmouseover="showImage('img21', '')" width="50px" border="0" src="">
 <img id="214" onerror="blankImage(this.id)" onmouseover="showImage('img21', '')" width="50px" border="0" src="">
@@ -3425,7 +4021,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -3452,8 +4059,8 @@ var disableLinks = false;
 function show21() {
     if (disableLinks) return;
     var id = "box21";
-    document.getElementById("img21").src = "service_ficheiros/service_058.jpg";
-    document.getElementById("211").src = "service_ficheiros/service_058.jpg";
+    document.getElementById("img21").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=21";
+    document.getElementById("211").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=21";
     document.getElementById("212").src = "";
     document.getElementById("213").src = "";
     document.getElementById("214").src = "";
@@ -3467,7 +4074,22 @@ function hide21() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show49()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_031.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show49()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=49" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show49()"><img class="animalimg" height="150px" width="150px" src="service_files/service_031.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3482,7 +4104,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="491" onerror="blankImage(this.id)" onmouseover="showImage('img49', 'service_ficheiros/service_031.jpg')" width="50px" border="0" src="service_ficheiros/service_031.jpg">
+<img id="491" onerror="blankImage(this.id)" onmouseover="showImage('img49', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=49')" width="50px" border="0" src="service_files/service_031.jpg">
 <img id="492" onerror="blankImage(this.id)" onmouseover="showImage('img49', '')" width="50px" border="0" src="">
 <img id="493" onerror="blankImage(this.id)" onmouseover="showImage('img49', '')" width="50px" border="0" src="">
 <img id="494" onerror="blankImage(this.id)" onmouseover="showImage('img49', '')" width="50px" border="0" src="">
@@ -3547,8 +4169,8 @@ var disableLinks = false;
 function show49() {
     if (disableLinks) return;
     var id = "box49";
-    document.getElementById("img49").src = "service_ficheiros/service_031.jpg";
-    document.getElementById("491").src = "service_ficheiros/service_031.jpg";
+    document.getElementById("img49").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=49";
+    document.getElementById("491").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=49";
     document.getElementById("492").src = "";
     document.getElementById("493").src = "";
     document.getElementById("494").src = "";
@@ -3562,7 +4184,22 @@ function hide49() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show6()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_043.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show6()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=6" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show6()"><img class="animalimg" height="150px" width="150px" src="service_files/service_043.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3577,7 +4214,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="61" onerror="blankImage(this.id)" onmouseover="showImage('img6', 'service_ficheiros/service_043.jpg')" width="50px" border="0" src="service_ficheiros/service_043.jpg">
+<img id="61" onerror="blankImage(this.id)" onmouseover="showImage('img6', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=6')" width="50px" border="0" src="service_files/service_043.jpg">
 <img id="62" onerror="blankImage(this.id)" onmouseover="showImage('img6', '')" width="50px" border="0" src="">
 <img id="63" onerror="blankImage(this.id)" onmouseover="showImage('img6', '')" width="50px" border="0" src="">
 <img id="64" onerror="blankImage(this.id)" onmouseover="showImage('img6', '')" width="50px" border="0" src="">
@@ -3604,7 +4241,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com cães <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com cães <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3632,8 +4280,8 @@ var disableLinks = false;
 function show6() {
     if (disableLinks) return;
     var id = "box6";
-    document.getElementById("img6").src = "service_ficheiros/service_043.jpg";
-    document.getElementById("61").src = "service_ficheiros/service_043.jpg";
+    document.getElementById("img6").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=6";
+    document.getElementById("61").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=6";
     document.getElementById("62").src = "";
     document.getElementById("63").src = "";
     document.getElementById("64").src = "";
@@ -3647,7 +4295,22 @@ function hide6() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show46()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show46()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=46" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show46()"><img class="animalimg" height="150px" width="150px" src="service_files/service.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3662,9 +4325,9 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="461" onerror="blankImage(this.id)" onmouseover="showImage('img46', 'service_ficheiros/service.jpg')" width="50px" border="0" src="service_ficheiros/service.jpg">
-<img id="462" onerror="blankImage(this.id)" onmouseover="showImage('img46', 'service_ficheiros/service_028.jpg')" width="50px" border="0" src="service_ficheiros/service_028.jpg">
-<img id="463" onerror="blankImage(this.id)" onmouseover="showImage('img46', '')" width="50px" border="0" src="">
+<img id="461" onerror="blankImage(this.id)" onmouseover="showImage('img46', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=46')" width="50px" border="0" src="service_files/service.jpg">
+<img id="462" onerror="blankImage(this.id)" onmouseover="showImage('img46', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=46&amp;seq=2')" width="50px" border="0" src="service_files/service_028.jpg">
+<img id="463" onerror="blankImage(this.id)" onmouseover="showImage('img46', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=46&amp;seq=3')" width="50px" border="0" src="service_files/service_036.jpg">
 <img id="464" onerror="blankImage(this.id)" onmouseover="showImage('img46', '')" width="50px" border="0" src="">
 <br>
 <img id="img46" class="animalimg" width="300px" src="" border="0">
@@ -3728,10 +4391,10 @@ var disableLinks = false;
 function show46() {
     if (disableLinks) return;
     var id = "box46";
-    document.getElementById("img46").src = "service_ficheiros/service.jpg";
-    document.getElementById("461").src = "service_ficheiros/service.jpg";
-    document.getElementById("462").src = "service_ficheiros/service_028.jpg";
-    document.getElementById("463").src = "";
+    document.getElementById("img46").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=46";
+    document.getElementById("461").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=46";
+    document.getElementById("462").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=46&seq=2";
+    document.getElementById("463").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=46&seq=3";
     document.getElementById("464").src = "";
     document.getElementById(id).style.display = "block";
     disableLinks = true;
@@ -3743,7 +4406,22 @@ function hide46() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show47()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_055.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show47()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=47" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show47()"><img class="animalimg" height="150px" width="150px" src="service_files/service_055.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3758,7 +4436,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="471" onerror="blankImage(this.id)" onmouseover="showImage('img47', 'service_ficheiros/service_055.jpg')" width="50px" border="0" src="service_ficheiros/service_055.jpg">
+<img id="471" onerror="blankImage(this.id)" onmouseover="showImage('img47', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=47')" width="50px" border="0" src="service_files/service_055.jpg">
 <img id="472" onerror="blankImage(this.id)" onmouseover="showImage('img47', '')" width="50px" border="0" src="">
 <img id="473" onerror="blankImage(this.id)" onmouseover="showImage('img47', '')" width="50px" border="0" src="">
 <img id="474" onerror="blankImage(this.id)" onmouseover="showImage('img47', '')" width="50px" border="0" src="">
@@ -3785,7 +4463,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3813,8 +4502,8 @@ var disableLinks = false;
 function show47() {
     if (disableLinks) return;
     var id = "box47";
-    document.getElementById("img47").src = "service_ficheiros/service_055.jpg";
-    document.getElementById("471").src = "service_ficheiros/service_055.jpg";
+    document.getElementById("img47").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=47";
+    document.getElementById("471").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=47";
     document.getElementById("472").src = "";
     document.getElementById("473").src = "";
     document.getElementById("474").src = "";
@@ -3829,7 +4518,21 @@ function hide47() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show15()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_006.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show15()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=15" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show15()"><img class="animalimg" height="150px" width="150px" src="service_files/service_006.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3844,7 +4547,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="151" onerror="blankImage(this.id)" onmouseover="showImage('img15', 'service_ficheiros/service_006.jpg')" width="50px" border="0" src="service_ficheiros/service_006.jpg">
+<img id="151" onerror="blankImage(this.id)" onmouseover="showImage('img15', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=15')" width="50px" border="0" src="service_files/service_006.jpg">
 <img id="152" onerror="blankImage(this.id)" onmouseover="showImage('img15', '')" width="50px" border="0" src="">
 <img id="153" onerror="blankImage(this.id)" onmouseover="showImage('img15', '')" width="50px" border="0" src="">
 <img id="154" onerror="blankImage(this.id)" onmouseover="showImage('img15', '')" width="50px" border="0" src="">
@@ -3871,7 +4574,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -3899,8 +4613,8 @@ var disableLinks = false;
 function show15() {
     if (disableLinks) return;
     var id = "box15";
-    document.getElementById("img15").src = "service_ficheiros/service_006.jpg";
-    document.getElementById("151").src = "service_ficheiros/service_006.jpg";
+    document.getElementById("img15").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=15";
+    document.getElementById("151").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=15";
     document.getElementById("152").src = "";
     document.getElementById("153").src = "";
     document.getElementById("154").src = "";
@@ -3914,7 +4628,22 @@ function hide15() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show5()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_035.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show5()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=5" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show5()"><img class="animalimg" height="150px" width="150px" src="service_files/service_035.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -3929,7 +4658,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="51" onerror="blankImage(this.id)" onmouseover="showImage('img5', 'service_ficheiros/service_035.jpg')" width="50px" border="0" src="service_ficheiros/service_035.jpg">
+<img id="51" onerror="blankImage(this.id)" onmouseover="showImage('img5', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=5')" width="50px" border="0" src="service_files/service_035.jpg">
 <img id="52" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
 <img id="53" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
 <img id="54" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
@@ -3956,7 +4685,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -3984,8 +4724,8 @@ var disableLinks = false;
 function show5() {
     if (disableLinks) return;
     var id = "box5";
-    document.getElementById("img5").src = "service_ficheiros/service_035.jpg";
-    document.getElementById("51").src = "service_ficheiros/service_035.jpg";
+    document.getElementById("img5").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=5";
+    document.getElementById("51").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=5";
     document.getElementById("52").src = "";
     document.getElementById("53").src = "";
     document.getElementById("54").src = "";
@@ -4000,7 +4740,21 @@ function hide5() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show72()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_050.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show72()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=72" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show72()"><img class="animalimg" height="150px" width="150px" src="service_files/service_050.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4015,7 +4769,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="721" onerror="blankImage(this.id)" onmouseover="showImage('img72', 'service_ficheiros/service_050.jpg')" width="50px" border="0" src="service_ficheiros/service_050.jpg">
+<img id="721" onerror="blankImage(this.id)" onmouseover="showImage('img72', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=72')" width="50px" border="0" src="service_files/service_050.jpg">
 <img id="722" onerror="blankImage(this.id)" onmouseover="showImage('img72', '')" width="50px" border="0" src="">
 <img id="723" onerror="blankImage(this.id)" onmouseover="showImage('img72', '')" width="50px" border="0" src="">
 <img id="724" onerror="blankImage(this.id)" onmouseover="showImage('img72', '')" width="50px" border="0" src="">
@@ -4042,7 +4796,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -4070,8 +4835,8 @@ var disableLinks = false;
 function show72() {
     if (disableLinks) return;
     var id = "box72";
-    document.getElementById("img72").src = "service_ficheiros/service_050.jpg";
-    document.getElementById("721").src = "service_ficheiros/service_050.jpg";
+    document.getElementById("img72").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=72";
+    document.getElementById("721").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=72";
     document.getElementById("722").src = "";
     document.getElementById("723").src = "";
     document.getElementById("724").src = "";
@@ -4085,7 +4850,22 @@ function hide72() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show12()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_056.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show12()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=12" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show12()"><img class="animalimg" height="150px" width="150px" src="service_files/service_056.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4100,7 +4880,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="121" onerror="blankImage(this.id)" onmouseover="showImage('img12', 'service_ficheiros/service_056.jpg')" width="50px" border="0" src="service_ficheiros/service_056.jpg">
+<img id="121" onerror="blankImage(this.id)" onmouseover="showImage('img12', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=12')" width="50px" border="0" src="service_files/service_056.jpg">
 <img id="122" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
 <img id="123" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
 <img id="124" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
@@ -4127,7 +4907,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -4154,8 +4945,8 @@ var disableLinks = false;
 function show12() {
     if (disableLinks) return;
     var id = "box12";
-    document.getElementById("img12").src = "service_ficheiros/service_056.jpg";
-    document.getElementById("121").src = "service_ficheiros/service_056.jpg";
+    document.getElementById("img12").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=12";
+    document.getElementById("121").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=12";
     document.getElementById("122").src = "";
     document.getElementById("123").src = "";
     document.getElementById("124").src = "";
@@ -4169,7 +4960,22 @@ function hide12() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show48()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_021.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show48()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=48" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show48()"><img class="animalimg" height="150px" width="150px" src="service_files/service_021.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4184,7 +4990,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="481" onerror="blankImage(this.id)" onmouseover="showImage('img48', 'service_ficheiros/service_021.jpg')" width="50px" border="0" src="service_ficheiros/service_021.jpg">
+<img id="481" onerror="blankImage(this.id)" onmouseover="showImage('img48', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=48')" width="50px" border="0" src="service_files/service_021.jpg">
 <img id="482" onerror="blankImage(this.id)" onmouseover="showImage('img48', '')" width="50px" border="0" src="">
 <img id="483" onerror="blankImage(this.id)" onmouseover="showImage('img48', '')" width="50px" border="0" src="">
 <img id="484" onerror="blankImage(this.id)" onmouseover="showImage('img48', '')" width="50px" border="0" src="">
@@ -4211,7 +5017,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -4239,8 +5056,8 @@ var disableLinks = false;
 function show48() {
     if (disableLinks) return;
     var id = "box48";
-    document.getElementById("img48").src = "service_ficheiros/service_021.jpg";
-    document.getElementById("481").src = "service_ficheiros/service_021.jpg";
+    document.getElementById("img48").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=48";
+    document.getElementById("481").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=48";
     document.getElementById("482").src = "";
     document.getElementById("483").src = "";
     document.getElementById("484").src = "";
@@ -4254,7 +5071,22 @@ function hide48() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show24()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_045.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show24()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=24" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show24()"><img class="animalimg" height="150px" width="150px" src="service_files/service_045.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4269,7 +5101,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="241" onerror="blankImage(this.id)" onmouseover="showImage('img24', 'service_ficheiros/service_045.jpg')" width="50px" border="0" src="service_ficheiros/service_045.jpg">
+<img id="241" onerror="blankImage(this.id)" onmouseover="showImage('img24', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=24')" width="50px" border="0" src="service_files/service_045.jpg">
 <img id="242" onerror="blankImage(this.id)" onmouseover="showImage('img24', '')" width="50px" border="0" src="">
 <img id="243" onerror="blankImage(this.id)" onmouseover="showImage('img24', '')" width="50px" border="0" src="">
 <img id="244" onerror="blankImage(this.id)" onmouseover="showImage('img24', '')" width="50px" border="0" src="">
@@ -4296,7 +5128,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -4324,8 +5167,8 @@ var disableLinks = false;
 function show24() {
     if (disableLinks) return;
     var id = "box24";
-    document.getElementById("img24").src = "service_ficheiros/service_045.jpg";
-    document.getElementById("241").src = "service_ficheiros/service_045.jpg";
+    document.getElementById("img24").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=24";
+    document.getElementById("241").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=24";
     document.getElementById("242").src = "";
     document.getElementById("243").src = "";
     document.getElementById("244").src = "";
@@ -4340,7 +5183,21 @@ function hide24() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show63()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_027.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show63()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=63" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show63()"><img class="animalimg" height="150px" width="150px" src="service_files/service_027.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4355,7 +5212,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="631" onerror="blankImage(this.id)" onmouseover="showImage('img63', 'service_ficheiros/service_027.jpg')" width="50px" border="0" src="service_ficheiros/service_027.jpg">
+<img id="631" onerror="blankImage(this.id)" onmouseover="showImage('img63', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=63')" width="50px" border="0" src="service_files/service_027.jpg">
 <img id="632" onerror="blankImage(this.id)" onmouseover="showImage('img63', '')" width="50px" border="0" src="">
 <img id="633" onerror="blankImage(this.id)" onmouseover="showImage('img63', '')" width="50px" border="0" src="">
 <img id="634" onerror="blankImage(this.id)" onmouseover="showImage('img63', '')" width="50px" border="0" src="">
@@ -4382,7 +5239,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>Simpático com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -4410,8 +5278,8 @@ var disableLinks = false;
 function show63() {
     if (disableLinks) return;
     var id = "box63";
-    document.getElementById("img63").src = "service_ficheiros/service_027.jpg";
-    document.getElementById("631").src = "service_ficheiros/service_027.jpg";
+    document.getElementById("img63").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=63";
+    document.getElementById("631").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=63";
     document.getElementById("632").src = "";
     document.getElementById("633").src = "";
     document.getElementById("634").src = "";
@@ -4425,7 +5293,22 @@ function hide63() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show4()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_026.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show4()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=4" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show4()"><img class="animalimg" height="150px" width="150px" src="service_files/service_026.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4440,7 +5323,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="41" onerror="blankImage(this.id)" onmouseover="showImage('img4', 'service_ficheiros/service_026.jpg')" width="50px" border="0" src="service_ficheiros/service_026.jpg">
+<img id="41" onerror="blankImage(this.id)" onmouseover="showImage('img4', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=4')" width="50px" border="0" src="service_files/service_026.jpg">
 <img id="42" onerror="blankImage(this.id)" onmouseover="showImage('img4', '')" width="50px" border="0" src="">
 <img id="43" onerror="blankImage(this.id)" onmouseover="showImage('img4', '')" width="50px" border="0" src="">
 <img id="44" onerror="blankImage(this.id)" onmouseover="showImage('img4', '')" width="50px" border="0" src="">
@@ -4467,7 +5350,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Positivo <br> FeLV: Negativo <br><br>NÃO É compatível com outros gatos <br>NÃO É compatível com crianças <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Positivo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Não' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Não' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Não' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Não' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>NÃO É compatível com outros gatos <br>NÃO É compatível com crianças <br>
 </span></td>
 </tr>
   <tr>
@@ -4495,8 +5389,8 @@ var disableLinks = false;
 function show4() {
     if (disableLinks) return;
     var id = "box4";
-    document.getElementById("img4").src = "service_ficheiros/service_026.jpg";
-    document.getElementById("41").src = "service_ficheiros/service_026.jpg";
+    document.getElementById("img4").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=4";
+    document.getElementById("41").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=4";
     document.getElementById("42").src = "";
     document.getElementById("43").src = "";
     document.getElementById("44").src = "";
@@ -4510,7 +5404,22 @@ function hide4() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show26()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_025.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show26()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=26" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show26()"><img class="animalimg" height="150px" width="150px" src="service_files/service_025.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4525,7 +5434,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="261" onerror="blankImage(this.id)" onmouseover="showImage('img26', 'service_ficheiros/service_025.jpg')" width="50px" border="0" src="service_ficheiros/service_025.jpg">
+<img id="261" onerror="blankImage(this.id)" onmouseover="showImage('img26', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=26')" width="50px" border="0" src="service_files/service_025.jpg">
 <img id="262" onerror="blankImage(this.id)" onmouseover="showImage('img26', '')" width="50px" border="0" src="">
 <img id="263" onerror="blankImage(this.id)" onmouseover="showImage('img26', '')" width="50px" border="0" src="">
 <img id="264" onerror="blankImage(this.id)" onmouseover="showImage('img26', '')" width="50px" border="0" src="">
@@ -4552,7 +5461,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -4580,8 +5500,8 @@ var disableLinks = false;
 function show26() {
     if (disableLinks) return;
     var id = "box26";
-    document.getElementById("img26").src = "service_ficheiros/service_025.jpg";
-    document.getElementById("261").src = "service_ficheiros/service_025.jpg";
+    document.getElementById("img26").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=26";
+    document.getElementById("261").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=26";
     document.getElementById("262").src = "";
     document.getElementById("263").src = "";
     document.getElementById("264").src = "";
@@ -4596,7 +5516,21 @@ function hide26() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show32()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_059.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show32()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=32" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show32()"><img class="animalimg" height="150px" width="150px" src="service_files/service_059.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4611,7 +5545,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="321" onerror="blankImage(this.id)" onmouseover="showImage('img32', 'service_ficheiros/service_059.jpg')" width="50px" border="0" src="service_ficheiros/service_059.jpg">
+<img id="321" onerror="blankImage(this.id)" onmouseover="showImage('img32', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=32')" width="50px" border="0" src="service_files/service_059.jpg">
 <img id="322" onerror="blankImage(this.id)" onmouseover="showImage('img32', '')" width="50px" border="0" src="">
 <img id="323" onerror="blankImage(this.id)" onmouseover="showImage('img32', '')" width="50px" border="0" src="">
 <img id="324" onerror="blankImage(this.id)" onmouseover="showImage('img32', '')" width="50px" border="0" src="">
@@ -4678,8 +5612,8 @@ var disableLinks = false;
 function show32() {
     if (disableLinks) return;
     var id = "box32";
-    document.getElementById("img32").src = "service_ficheiros/service_059.jpg";
-    document.getElementById("321").src = "service_ficheiros/service_059.jpg";
+    document.getElementById("img32").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=32";
+    document.getElementById("321").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=32";
     document.getElementById("322").src = "";
     document.getElementById("323").src = "";
     document.getElementById("324").src = "";
@@ -4694,7 +5628,21 @@ function hide32() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show37()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_013.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show37()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=37" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show37()"><img class="animalimg" height="150px" width="150px" src="service_files/service_013.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4709,7 +5657,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="371" onerror="blankImage(this.id)" onmouseover="showImage('img37', 'service_ficheiros/service_013.jpg')" width="50px" border="0" src="service_ficheiros/service_013.jpg">
+<img id="371" onerror="blankImage(this.id)" onmouseover="showImage('img37', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=37')" width="50px" border="0" src="service_files/service_013.jpg">
 <img id="372" onerror="blankImage(this.id)" onmouseover="showImage('img37', '')" width="50px" border="0" src="">
 <img id="373" onerror="blankImage(this.id)" onmouseover="showImage('img37', '')" width="50px" border="0" src="">
 <img id="374" onerror="blankImage(this.id)" onmouseover="showImage('img37', '')" width="50px" border="0" src="">
@@ -4736,7 +5684,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Negativo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Negativo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -4765,8 +5724,8 @@ var disableLinks = false;
 function show37() {
     if (disableLinks) return;
     var id = "box37";
-    document.getElementById("img37").src = "service_ficheiros/service_013.jpg";
-    document.getElementById("371").src = "service_ficheiros/service_013.jpg";
+    document.getElementById("img37").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=37";
+    document.getElementById("371").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=37";
     document.getElementById("372").src = "";
     document.getElementById("373").src = "";
     document.getElementById("374").src = "";
@@ -4781,7 +5740,21 @@ function hide37() {
 </script>
 <div class="box">
 
-<div class="imgbox"><a href="javascript:show61()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_044.jpg" border="0"></a></div>
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show61()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=61" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show61()"><img class="animalimg" height="150px" width="150px" src="service_files/service_044.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4796,7 +5769,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="611" onerror="blankImage(this.id)" onmouseover="showImage('img61', 'service_ficheiros/service_044.jpg')" width="50px" border="0" src="service_ficheiros/service_044.jpg">
+<img id="611" onerror="blankImage(this.id)" onmouseover="showImage('img61', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=61')" width="50px" border="0" src="service_files/service_044.jpg">
 <img id="612" onerror="blankImage(this.id)" onmouseover="showImage('img61', '')" width="50px" border="0" src="">
 <img id="613" onerror="blankImage(this.id)" onmouseover="showImage('img61', '')" width="50px" border="0" src="">
 <img id="614" onerror="blankImage(this.id)" onmouseover="showImage('img61', '')" width="50px" border="0" src="">
@@ -4823,7 +5796,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Positivo <br> FeLV: Negativo <br><br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Positivo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -4850,8 +5834,8 @@ var disableLinks = false;
 function show61() {
     if (disableLinks) return;
     var id = "box61";
-    document.getElementById("img61").src = "service_ficheiros/service_044.jpg";
-    document.getElementById("611").src = "service_ficheiros/service_044.jpg";
+    document.getElementById("img61").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=61";
+    document.getElementById("611").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=61";
     document.getElementById("612").src = "";
     document.getElementById("613").src = "";
     document.getElementById("614").src = "";
@@ -4865,7 +5849,22 @@ function hide61() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show18()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_033.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show18()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=18" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show18()"><img class="animalimg" height="150px" width="150px" src="service_files/service_033.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4880,7 +5879,7 @@ Masculino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="181" onerror="blankImage(this.id)" onmouseover="showImage('img18', 'service_ficheiros/service_033.jpg')" width="50px" border="0" src="service_ficheiros/service_033.jpg">
+<img id="181" onerror="blankImage(this.id)" onmouseover="showImage('img18', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=18')" width="50px" border="0" src="service_files/service_033.jpg">
 <img id="182" onerror="blankImage(this.id)" onmouseover="showImage('img18', '')" width="50px" border="0" src="">
 <img id="183" onerror="blankImage(this.id)" onmouseover="showImage('img18', '')" width="50px" border="0" src="">
 <img id="184" onerror="blankImage(this.id)" onmouseover="showImage('img18', '')" width="50px" border="0" src="">
@@ -4907,7 +5906,18 @@ Masculino
 <tr>
 <td></td>
 <td><span class="vgood">
-FIV: Positivo <br> FeLV: Negativo <br><br>
+<script>
+    if ('Sim' == 'Sim') {
+      document.write("FIV: Positivo <br /> FeLV: Negativo <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Selectivo' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Selectivo' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>FIV: Positivo <br> FeLV: Negativo <br><br>
 </span></td>
 </tr>
   <tr>
@@ -4936,8 +5946,8 @@ var disableLinks = false;
 function show18() {
     if (disableLinks) return;
     var id = "box18";
-    document.getElementById("img18").src = "service_ficheiros/service_033.jpg";
-    document.getElementById("181").src = "service_ficheiros/service_033.jpg";
+    document.getElementById("img18").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=18";
+    document.getElementById("181").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=18";
     document.getElementById("182").src = "";
     document.getElementById("183").src = "";
     document.getElementById("184").src = "";
@@ -4951,7 +5961,22 @@ function hide18() {
 }
 </script>
 <div class="box">
-<div class="imgbox"><a href="javascript:show42()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_051.jpg" border="0"></a></div>
+
+<script>
+    if ('Não' == 'Sim') {
+        document.write('<div class="imgbox side-corner-tag">');
+    }
+    else {
+        document.write('<div class="imgbox">');
+    }
+    document.write('<a href="javascript:show42()">');
+    document.write('<img class="animalimg" height="150px" width="150px" src="http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=42" border="0" />');
+    document.write('</a>');
+    if ('Não' == 'Sim') {
+        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
+    }
+    document.write('</div>');
+</script><div class="imgbox"><a href="javascript:show42()"><img class="animalimg" height="150px" width="150px" src="service_files/service_051.jpg" border="0"></a></div>
 
 <div class="detailbox">
 <b>
@@ -4966,7 +5991,7 @@ Feminino
 <table width="100%">
 <tbody><tr>
 <td width="160px" valign="top" align="center">
-<img id="421" onerror="blankImage(this.id)" onmouseover="showImage('img42', 'service_ficheiros/service_051.jpg')" width="50px" border="0" src="service_ficheiros/service_051.jpg">
+<img id="421" onerror="blankImage(this.id)" onmouseover="showImage('img42', 'http://asm.amigatosdamilkinha.org/service?method=animal_image&amp;animalid=42')" width="50px" border="0" src="service_files/service_051.jpg">
 <img id="422" onerror="blankImage(this.id)" onmouseover="showImage('img42', '')" width="50px" border="0" src="">
 <img id="423" onerror="blankImage(this.id)" onmouseover="showImage('img42', '')" width="50px" border="0" src="">
 <img id="424" onerror="blankImage(this.id)" onmouseover="showImage('img42', '')" width="50px" border="0" src="">
@@ -4993,7 +6018,18 @@ Feminino
 <tr>
 <td></td>
 <td><span class="vgood">
-Simpático com outros gatos <br>
+<script>
+    if ('Não' == 'Sim') {
+      document.write("FIV:  <br /> FeLV:  <br /><br />");
+    }
+    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
+    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
+    if ('Desconhecido' == 'Sim') document.write("Simpático com crianças <br />");
+    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
+    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com crianças <br />");   
+</script>Simpático com outros gatos <br>
 </span></td>
 </tr>
   <tr>
@@ -5021,8 +6057,8 @@ var disableLinks = false;
 function show42() {
     if (disableLinks) return;
     var id = "box42";
-    document.getElementById("img42").src = "service_ficheiros/service_051.jpg";
-    document.getElementById("421").src = "service_ficheiros/service_051.jpg";
+    document.getElementById("img42").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=42";
+    document.getElementById("421").src = "http://asm.amigatosdamilkinha.org/service?method=animal_image&animalid=42";
     document.getElementById("422").src = "";
     document.getElementById("423").src = "";
     document.getElementById("424").src = "";
