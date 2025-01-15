@@ -17,6 +17,17 @@ body {
 h1 {
     color: #c48288;
 }
+.main {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+}
+span {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .box {
     margin: 5px;
     max-width: 150px;
@@ -105,6 +116,8 @@ function blankImage(imgid) {
         <p>Atuais residentes no abrigo.</p>
     </br>
     </div>    
+
+<div class="main">
 <div class="box">
 
 <script>
@@ -442,115 +455,6 @@ function hide27() {
         document.write('<div class="imgbox">');
     }
     document.write('<a href="javascript:show58()">');
-    document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_029.jpg" border="0" />');
-    document.write('</a>');
-    if ('Não' == 'Sim') {
-        document.write('<p><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reservado</span></p>');
-    }
-    document.write('</div>');
-</script>
-<div class="detailbox">
-<b>
-<a href="javascript:show58()">Blue</a><br>
-Feminino
-</b>
-</div>
-</div>
-
-<div id="box58" class="animaldetails" style="display: none">
-<p align="right"><a href="javascript:hide58()">Fechar</a></p>
-<table width="100%">
-<tbody><tr>
-<td width="160px" valign="top" align="center">
-<img id="581" onerror="blankImage(this.id)" onmouseover="showImage('img58', 'service_ficheiros/service_029.jpg')" width="50px" border="0" src="service_ficheiros/service_029.jpg">
-<img id="582" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
-<img id="583" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
-<img id="584" onerror="blankImage(this.id)" onmouseover="showImage('img58', '')" width="50px" border="0" src="">
-<br>
-<img id="img58" class="animalimg" width="300px" src="" border="0">
-</td>
-<td rowspan="2" valign="top"><table width="100%">
-<tbody><tr>
-<td width="85px"><span class="lname">Nome:</span></td>
-<td><span class="vname">Blue</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lsex">Sexo:</span></td>
-<td><span class="vsex">Feminino</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lage">Idade:</span></td>
-<td><span class="vage">2 anos</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lbreed">Raça:</span></td>
-<td><span class="vbreed">Europeu Comum</span></td>
-</tr>
-<tr>
-<td></td>
-<td><span class="vgood">
-<script>
-    if ('Não' == 'Sim') {
-      document.write("FIV:  <br /> FeLV:  <br /><br />");
-    }
-    if ('Não' == 'Sim') document.write("<b>Reservado</b><br />");
-    if ('Sim' == 'Sim') document.write("Simpático com outros gatos <br />");
-    if ('Desconhecido' == 'Sim') document.write("Simpático com cães <br />");
-    if ('Sim' == 'Sim') document.write("Simpático com crianças <br />");
-    if ('Sim' == 'Não') document.write("NÃO É compatível com outros gatos <br />");
-    if ('Desconhecido' == 'Não') document.write("NÃO É compatível com cães <br />");
-    if ('Sim' == 'Não') document.write("NÃO É compatível com crianças <br />");   
-</script>
-</span></td>
-</tr>
-  <tr>
-    <td></td>
-  <td>
-  <p>Redonda, pequenina, e muito fofa. O seu nome vem dos seus belos olhos azuis. Uma gatinha tímida mas que adora a hora do patê. <br>Pede
- a comida pondo-se de pé e juntando as patinhas, tentando pegar num 
-pedacinho para ela. Adora miminho e de brincar com os amigos.</p>
-</td></tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<script type="text/javascript">
-        if ("None" != "" && "None" != "None") {
-            document.write("<p><a target=\"_blank\" href=\"None\">Click here for a video of Blue</a></p>");
-        }
-</script>
-
-</div>
-
-<script type="text/javascript">
-var disableLinks = false;
-function show58() {
-    if (disableLinks) return;
-    var id = "box58";
-    document.getElementById("img58").src = "service_ficheiros/service_029.jpg";
-    document.getElementById("581").src = "service_ficheiros/service_029.jpg";
-    document.getElementById("582").src = "";
-    document.getElementById("583").src = "";
-    document.getElementById("584").src = "";
-    document.getElementById(id).style.display = "block";
-    disableLinks = true;
-}
-function hide58() {
-    var id = "box58";
-    document.getElementById(id).style.display = "none";
-    disableLinks = false;
-}
-</script>
-<div class="box">
-
-<script>
-    if ('Não' == 'Sim') {
-        document.write('<div class="imgbox side-corner-tag">');
-    }
-    else {
-        document.write('<div class="imgbox">');
-    }
-    document.write('<a href="javascript:show59()">');
     document.write('<img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_038.jpg" border="0" />');
     document.write('</a>');
     if ('Não' == 'Sim') {
@@ -558,6 +462,7 @@ function hide58() {
     }
     document.write('</div>');
 </script>
+
 <div class="detailbox">
 <b>
 <a href="javascript:show59()">Boganga</a><br>
@@ -2779,93 +2684,8 @@ function hide36() {
     disableLinks = false;
 }
 </script>
+
 <div class="box">
-
-<div class="imgbox"><a href="javascript:show13()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_049.jpg" border="0"></a></div>
-
-<div class="detailbox">
-<b>
-<a href="javascript:show13()">Koda</a><br>
-Masculino
-</b>
-</div>
-</div>
-
-<div id="box13" class="animaldetails" style="display: none">
-<p align="right"><a href="javascript:hide13()">Fechar</a></p>
-<table width="100%">
-<tbody><tr>
-<td width="160px" valign="top" align="center">
-<img id="131" onerror="blankImage(this.id)" onmouseover="showImage('img13', 'service_ficheiros/service_049.jpg')" width="50px" border="0" src="service_ficheiros/service_049.jpg">
-<img id="132" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
-<img id="133" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
-<img id="134" onerror="blankImage(this.id)" onmouseover="showImage('img13', '')" width="50px" border="0" src="">
-<br>
-<img id="img13" class="animalimg" width="300px" src="" border="0">
-</td>
-<td rowspan="2" valign="top"><table width="100%">
-<tbody><tr>
-<td width="85px"><span class="lname">Nome:</span></td>
-<td><span class="vname">Koda</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lsex">Sexo:</span></td>
-<td><span class="vsex">Masculino</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lage">Idade:</span></td>
-<td><span class="vage">8 meses</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lbreed">Raça:</span></td>
-<td><span class="vbreed">Europeu Comum</span></td>
-</tr>
-<tr>
-<td></td>
-<td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
-</span></td>
-</tr>
-  <tr>
-    <td></td>
-  <td>
-  <p>Tal como o irmão, o Koda é um gatinho muito energético e 
-brincalhão. Sempre pronto a chatear os cuidadores e os irmãos. Não deixa
- escapar nem um bocadinho de patê. <br>Filhote da Salmiakki e irmão da Kima e do Rodolfo.</p>
-</td></tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<script type="text/javascript">
-        if ("None" != "" && "None" != "None") {
-            document.write("<p><a target=\"_blank\" href=\"None\">Click here for a video of Koda</a></p>");
-        }
-</script>
-
-</div>
-
-<script type="text/javascript">
-var disableLinks = false;
-function show13() {
-    if (disableLinks) return;
-    var id = "box13";
-    document.getElementById("img13").src = "service_ficheiros/service_049.jpg";
-    document.getElementById("131").src = "service_ficheiros/service_049.jpg";
-    document.getElementById("132").src = "";
-    document.getElementById("133").src = "";
-    document.getElementById("134").src = "";
-    document.getElementById(id).style.display = "block";
-    disableLinks = true;
-}
-function hide13() {
-    var id = "box13";
-    document.getElementById(id).style.display = "none";
-    disableLinks = false;
-}
-</script>
-<div class="box">
-
 <div class="imgbox"><a href="javascript:show39()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_047.jpg" border="0"></a></div>
 
 <div class="detailbox">
@@ -3913,93 +3733,8 @@ function hide15() {
     disableLinks = false;
 }
 </script>
+
 <div class="box">
-<div class="imgbox"><a href="javascript:show5()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_035.jpg" border="0"></a></div>
-
-<div class="detailbox">
-<b>
-<a href="javascript:show5()">Pintinhas</a><br>
-Feminino
-</b>
-</div>
-</div>
-
-<div id="box5" class="animaldetails" style="display: none">
-<p align="right"><a href="javascript:hide5()">Fechar</a></p>
-<table width="100%">
-<tbody><tr>
-<td width="160px" valign="top" align="center">
-<img id="51" onerror="blankImage(this.id)" onmouseover="showImage('img5', 'service_ficheiros/service_035.jpg')" width="50px" border="0" src="service_ficheiros/service_035.jpg">
-<img id="52" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
-<img id="53" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
-<img id="54" onerror="blankImage(this.id)" onmouseover="showImage('img5', '')" width="50px" border="0" src="">
-<br>
-<img id="img5" class="animalimg" width="300px" src="" border="0">
-</td>
-<td rowspan="2" valign="top"><table width="100%">
-<tbody><tr>
-<td width="85px"><span class="lname">Nome:</span></td>
-<td><span class="vname">Pintinhas</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lsex">Sexo:</span></td>
-<td><span class="vsex">Feminino</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lage">Idade:</span></td>
-<td><span class="vage">1 ano</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lbreed">Raça:</span></td>
-<td><span class="vbreed">Europeu Comum</span></td>
-</tr>
-<tr>
-<td></td>
-<td><span class="vgood">
-FIV: Negativo <br> FeLV: Negativo <br><br>Simpático com crianças <br>
-</span></td>
-</tr>
-  <tr>
-    <td></td>
-  <td>
-  <p>Tem a orelhinha cortada não porque ia ser devolvida à sua colónia, 
-mas porque foi encontrada no motor de um carro, onde a queimou. Sempre 
-muito arisca e simpática, a Pintinhas depressa conquista o coração dos 
-humanos e dos amiguinhos do abrigo. Adora um bom colo e festinhas.</p>
-</td></tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<script type="text/javascript">
-        if ("None" != "" && "None" != "None") {
-            document.write("<p><a target=\"_blank\" href=\"None\">Click here for a video of Pintinhas</a></p>");
-        }
-</script>
-
-</div>
-
-<script type="text/javascript">
-var disableLinks = false;
-function show5() {
-    if (disableLinks) return;
-    var id = "box5";
-    document.getElementById("img5").src = "service_ficheiros/service_035.jpg";
-    document.getElementById("51").src = "service_ficheiros/service_035.jpg";
-    document.getElementById("52").src = "";
-    document.getElementById("53").src = "";
-    document.getElementById("54").src = "";
-    document.getElementById(id).style.display = "block";
-    disableLinks = true;
-}
-function hide5() {
-    var id = "box5";
-    document.getElementById(id).style.display = "none";
-    disableLinks = false;
-}
-</script>
-<div class="box">
-
 <div class="imgbox"><a href="javascript:show72()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_050.jpg" border="0"></a></div>
 
 <div class="detailbox">
@@ -4084,90 +3819,7 @@ function hide72() {
     disableLinks = false;
 }
 </script>
-<div class="box">
-<div class="imgbox"><a href="javascript:show12()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_056.jpg" border="0"></a></div>
 
-<div class="detailbox">
-<b>
-<a href="javascript:show12()">Rodolfo</a><br>
-Masculino
-</b>
-</div>
-</div>
-
-<div id="box12" class="animaldetails" style="display: none">
-<p align="right"><a href="javascript:hide12()">Fechar</a></p>
-<table width="100%">
-<tbody><tr>
-<td width="160px" valign="top" align="center">
-<img id="121" onerror="blankImage(this.id)" onmouseover="showImage('img12', 'service_ficheiros/service_056.jpg')" width="50px" border="0" src="service_ficheiros/service_056.jpg">
-<img id="122" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
-<img id="123" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
-<img id="124" onerror="blankImage(this.id)" onmouseover="showImage('img12', '')" width="50px" border="0" src="">
-<br>
-<img id="img12" class="animalimg" width="300px" src="" border="0">
-</td>
-<td rowspan="2" valign="top"><table width="100%">
-<tbody><tr>
-<td width="85px"><span class="lname">Nome:</span></td>
-<td><span class="vname">Rodolfo</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lsex">Sexo:</span></td>
-<td><span class="vsex">Masculino</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lage">Idade:</span></td>
-<td><span class="vage">8 meses</span></td>
-</tr>
-<tr>
-<td width="85px"><span class="lbreed">Raça:</span></td>
-<td><span class="vbreed">Europeu Comum</span></td>
-</tr>
-<tr>
-<td></td>
-<td><span class="vgood">
-Simpático com outros gatos <br>Simpático com crianças <br>
-</span></td>
-</tr>
-  <tr>
-    <td></td>
-  <td>
-  <p>Muito parecido ao irmãozinho, Koda, o Rodolfo é outro 
-brincalhãozinho. Adora brincar com humanos e com os colegas, mas 
-principalmente com o irmão. Não resiste a<br>umas festinhas e patê. <br>Filhote da Salmiakki e irmão do Koda e da Kima.</p>
-</td></tr>
-</tbody></table>
-</td>
-</tr>
-</tbody></table>
-<script type="text/javascript">
-        if ("None" != "" && "None" != "None") {
-            document.write("<p><a target=\"_blank\" href=\"None\">Click here for a video of Rodolfo</a></p>");
-        }
-</script>
-
-</div>
-
-<script type="text/javascript">
-var disableLinks = false;
-function show12() {
-    if (disableLinks) return;
-    var id = "box12";
-    document.getElementById("img12").src = "service_ficheiros/service_056.jpg";
-    document.getElementById("121").src = "service_ficheiros/service_056.jpg";
-    document.getElementById("122").src = "";
-    document.getElementById("123").src = "";
-    document.getElementById("124").src = "";
-    document.getElementById(id).style.display = "block";
-    disableLinks = true;
-}
-function hide12() {
-    var id = "box12";
-    document.getElementById(id).style.display = "none";
-    disableLinks = false;
-}
-</script>
 <div class="box">
 <div class="imgbox"><a href="javascript:show48()"><img class="animalimg" height="150px" width="150px" src="service_ficheiros/service_021.jpg" border="0"></a></div>
 
@@ -5035,6 +4687,7 @@ function hide42() {
     disableLinks = false;
 }
 </script>
+</div>
 <script type="text/javascript">
 // If the page has a show=ANIMALID parameter, make
 // that animal display.
